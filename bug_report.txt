@@ -1,0 +1,5 @@
+BUG-001,Login fails on Safari,High,Open
+BUG-002,Cart not updating,Medium,Fixed
+BUG-003,Payment crashes,Critical,Open
+BUG-004,Profile photo issue, Low,Fixed
+BUG-005,Profile name conflict,High,Open

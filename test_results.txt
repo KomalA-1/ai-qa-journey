@@ -1,0 +1,7 @@
+======== TEST EXECUTION STARTED =======
+TC-001 | Valud Login    | PASSED
+TC-002 | Invalid Login  | FAILED
+TC-003 | Search Product | PASSED
+TC-004 | Add to Cart    | PASSED
+TC-005 | CHeckout       | FAILED
+======== TEST EXECUTION COMPLETED =========
