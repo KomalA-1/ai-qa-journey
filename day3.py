@@ -18,7 +18,7 @@ is_passed = True
 is_blocked = False
 is_critical = True
 
-# ===== PRIT EVERYTHING =====
+# ===== PRINT EVERYTHING =====
 print("===== Test Summary =====")
 print(f"Test Name      : {test_name}")
 print(f"Status         : {test_status}")
