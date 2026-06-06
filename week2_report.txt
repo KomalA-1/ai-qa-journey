@@ -1,0 +1,10 @@
+API Test Report  - 2026-06-06 16:29:07
+=============================================
+Get User 1 | PASSED | 200 
+Get All Posts | PASSED | 200 
+Get Comment 1 | PASSED | 200 
+Get Invalid User | PASSED | 404 
+Get Todos List | PASSED | 200 
+Get Photo 5 | PASSED | 200 
+
+Passed: 6 | Failed: 0
