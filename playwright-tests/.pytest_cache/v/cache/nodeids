@@ -1,0 +1,18 @@
+[
+  "test_day15.py::test_google_title",
+  "test_day15.py::test_wikipedia",
+  "test_day16.py::test_locators",
+  "test_day17.py::test_login_invalid",
+  "test_day17.py::test_login_valid",
+  "test_day17.py::test_wrong_password",
+  "test_day18.py::test_invalid_login",
+  "test_day18.py::test_valid_login",
+  "test_day19.py::test_invalid_login",
+  "test_day19.py::test_valid_login",
+  "test_day19.py::test_wrong_password",
+  "test_day20.py::test_invalid_password",
+  "test_day20.py::test_invalid_username",
+  "test_day20.py::test_valid_login",
+  "test_day21.py::test_invalid_login_with_screenshot",
+  "test_day21.py::test_valid_login_with_screenshot"
+]

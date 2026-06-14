@@ -28,8 +28,11 @@ class LoginPage:
         return self.page.inner_text("body")
     
     def is_login_successful(self):
-        return "Congratulations" in self.get_body_text()
+        return "logged-in-successfully" in self.page.url
 
     def is_login_failed(self):
-        return "invalid" in self.get_body_text()    
+        return "invalid" in self.get_body_text() and "logged-in-successfully" not in self.page.url
+
+    def take_screenshot(self, name):
+        self.page.screenshot(path=f"screenshots/{name}.png")   
     
