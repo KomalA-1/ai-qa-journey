@@ -14,5 +14,9 @@
   "test_day20.py::test_invalid_username",
   "test_day20.py::test_valid_login",
   "test_day21.py::test_invalid_login_with_screenshot",
-  "test_day21.py::test_valid_login_with_screenshot"
+  "test_day21.py::test_valid_login_with_screenshot",
+  "test_day22.py::test_create_post",
+  "test_day22.py::test_delete_post",
+  "test_day22.py::test_get_all_todos_count",
+  "test_day22.py::test_get_user"
 ]
