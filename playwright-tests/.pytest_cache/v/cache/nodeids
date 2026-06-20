@@ -63,5 +63,14 @@
   "test_day25.py::test_login_data_driven[webkit-student--failed]",
   "test_day25.py::test_login_data_driven[webkit-student-Password123-success]",
   "test_day25.py::test_login_data_driven[webkit-student-WrongPass999-failed]",
-  "test_day25.py::test_login_data_driven[webkit-wronguser-wrongpass-failed]"
+  "test_day25.py::test_login_data_driven[webkit-wronguser-wrongpass-failed]",
+  "test_day26.py::test_dashboard_heading[chromium]",
+  "test_day26.py::test_dashboard_heading[firefox]",
+  "test_day26.py::test_dashboard_heading[webkit]",
+  "test_day26.py::test_login_then_check_dashboard[chromium]",
+  "test_day26.py::test_login_then_check_dashboard[firefox]",
+  "test_day26.py::test_login_then_check_dashboard[webkit]",
+  "test_day26.py::test_login_then_logout[chromium]",
+  "test_day26.py::test_login_then_logout[firefox]",
+  "test_day26.py::test_login_then_logout[webkit]"
 ]

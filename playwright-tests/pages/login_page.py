@@ -35,4 +35,10 @@ class LoginPage:
 
     def take_screenshot(self, name):
         self.page.screenshot(path=f"screenshots/{name}.png")   
+
+
+    def login_and_go_to_dashboard(self, username, password):
+        self.login(username, password)
+        from pages.dashboard_page import DashboardPage
+        return DashboardPage(self.page)
     
