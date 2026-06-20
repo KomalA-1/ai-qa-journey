@@ -72,5 +72,11 @@
   "test_day26.py::test_login_then_check_dashboard[webkit]",
   "test_day26.py::test_login_then_logout[chromium]",
   "test_day26.py::test_login_then_logout[firefox]",
-  "test_day26.py::test_login_then_logout[webkit]"
+  "test_day26.py::test_login_then_logout[webkit]",
+  "test_day27.py::test_accessibility_scan[chromium]",
+  "test_day27.py::test_accessibility_scan[firefox]",
+  "test_day27.py::test_accessibility_scan[webkit]",
+  "test_day27.py::test_visual_snapshot[chromium]",
+  "test_day27.py::test_visual_snapshot[firefox]",
+  "test_day27.py::test_visual_snapshot[webkit]"
 ]
