@@ -1,4 +1,5 @@
 [
+  "test_bug_reporter.py::test_generate_bug_report",
   "test_day15.py::test_google_title",
   "test_day15.py::test_wikipedia",
   "test_day16.py::test_locators",
