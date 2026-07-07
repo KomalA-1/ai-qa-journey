@@ -28,4 +28,6 @@ jobs:
       - name: Run Playwright tests
         run: |
           cd playwright-tests
-          pytest test_day20.py test_day22.py -v --browser chromium
+          pytest tests/final_project -v --browser chromium
+
+
