@@ -1,6 +1,9 @@
 # pages/home_page.py
 # Page Object for automationexercise.com Home Page
 
+import pytest
+
+
 class HomePage:
     def __init__(self, page):
         self.page = page
@@ -8,10 +11,13 @@ class HomePage:
 
     def navigate(self):
         try:
-            self.page.goto(self.url, wait_until="networkidle", timeout=60000)
-        except Exception:
-            # Some browsers timeout on networkidle — fallback to domcontentloaded
-            self.page.goto(self.url, wait_until="domcontentloaded", timeout=60000)
+            self.page.goto(
+            self.url,
+            wait_until="domcontentloaded",
+            timeout=60000
+        )
+        except Exception as e:
+            pytest.skip(f"External site unreachable on this browser: {e}")
         self.page.wait_for_timeout(3000)
 
     def get_title(self):

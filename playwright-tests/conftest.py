@@ -9,6 +9,10 @@ from datetime import datetime
 def page(request):
     browser_name = request.param
 
+    marker = request.node.get_closest_marker("chromium_only")
+    if marker and browser_name != "chromium":
+        pytest.skip(f"Skipped on {browser_name} — chromium only")
+
     with sync_playwright() as p:
         browser_type = getattr(p, browser_name)
         browser = browser_type.launch(headless=True)
